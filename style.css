@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#headerimg{
+    max-height:80%;
+    max-width:75%;
+    margin:10px 12.5%;
+}
+footer, #quote1, span{
+    font-family: 'Pacifico', cursive;
+    font-size:27px;
+}
+#quote1{
+    margin:10px 0;
+}
+#timelineimg, nav img{
+    display: block;
+    margin: auto;
+}
+main, nav{
+    font-family: 'Dosis' , sans-serif;
+}
+main{
+    display:inline-block;
+    max-width: 63%;
+    margin: 10px 30px 10px 110px;
+    font-weight: lighter;
+    border-top: 1px solid rgb(192, 192, 192);
+}
+table{
+    border-collapse: collapse;
+}
+main tr, .nav-table-right-col{
+    border-bottom:1px solid rgb(192, 192, 192);
+}
+.table-left-col{
+    width:15%;
+}
+.table-right-col{
+    line-height: 21px;
+    padding: 7px 7px;
+}
+.table-right-col, tr:hover{
+    background: rgb(251 249 249);
+}
+tr:hover, .table-left-col, .nav-table-left-col{
+    font-weight: bold;
+}
+tr:hover{
+    transform: scale(1.005);
+    color:rgb(50, 50, 82);
+}
+img:hover{
+    transform: scale(1.01);
+}
+nav{
+    margin-right: 54px;
+}
+nav img{
+    max-height: 279px;
+    padding: 10px 0;
+}
+.nav-table-left-col, .table-left-col, .nav-table-right-col, nav h1, p{
+    text-align: center;
+}
+.nav-table-left-col{
+    max-width: 84px;
+}
+.nav-table-right-col{
+    max-width: 221px;
+}
+p{
+    padding:0 155px;
+}
+footer{
+    background: #ECECEC;
+    margin: 65px;
+    padding: 5px;
+}
+.last-para{
+    margin-top: 33px;
+}
+a{
+    text-decoration: none;
+    color: #2191FF;
+}
+span, nav{
+    float: right;
+}
+span{
+    font-size: 15px;
+    margin: 10px 22px;
+}
